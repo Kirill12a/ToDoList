@@ -1,11 +1,3 @@
-//
-//  TodoListTests.swift
-//  TodoListTests
-//
-//  Created by Satyam Sehgal on 17/04/19.
-//  Copyright © 2019 Satyam Sehgal. All rights reserved.
-//
-
 import XCTest
 import CoreData
 @testable import TodoList
