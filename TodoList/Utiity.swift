@@ -13,7 +13,6 @@ class Utility
       alert.addAction(action)
     }
     if okAction == nil && cancelAction == nil {
-      //Fallback if no action provided.
       let action = UIAlertAction.init(title: StringConstants.okButtonTitle, style: UIAlertAction.Style.default, handler: nil)
       alert.addAction(action)
     }

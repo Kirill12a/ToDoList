@@ -154,7 +154,8 @@ extension ViewController: UISearchBarDelegate
     scrollToTop()
   }
 
-  @objc func updateSearchResult(_ timer: Timer) {
+  @objc func updateSearchResult(_ timer: Timer)
+  {
     if let searchText = timer.userInfo as? String {
       self.filteredToDoList = self.toDoList.filter ({
         (($0.title ?? StringConstants.emptyString).range(of: searchText, options: .caseInsensitive) != nil) || (($0.detailDescription ?? StringConstants.emptyString).range(of: searchText, options: .caseInsensitive) != nil)
